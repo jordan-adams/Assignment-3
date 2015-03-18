@@ -1,0 +1,32 @@
+# Homework 3 Question 2
+# Jordan Adams
+
+from math import exp
+
+a = exp(-1)
+print(a)
+
+def factorial(n):
+    f = 1.0
+    for k in range(1,n+1):
+        f *= k
+    return f
+# User defined Factorial function
+
+def inverse(x):
+    return 1/x
+# User defined inverse function
+
+x_x=[]
+y_y=[]
+
+# Sets up empty lists to be used later in the graph
+
+part_a=[]
+part_b=[]
+part_c=[]
+part_d=[]
+
+# Empty lists to hold values from each part of this problem after calculations
+# To be added to the graph
+
