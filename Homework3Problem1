@@ -1,0 +1,22 @@
+# Homework Assignment #3 Question 1
+# Jordan Adams
+from pylab import imshow,show,bone
+from numpy import loadtxt
+
+# Required imports to make density plot and data fetching work
+
+data = loadtxt("stm.txt",float)
+
+# Pulls data from the txt file stm.txt for density plot
+
+imshow(data,origin="lower")
+
+# Generates graph with the origin in the normal lower left corner
+
+bone()
+
+# Colors the graph in a way which I feel best displayed the structure
+
+show()
+
+# Displays Graph
