@@ -1,0 +1,41 @@
+# Homework 3 Problem 3
+# Jordan Adams
+
+a = float(input("What is a?",))
+b = float(input("What is b?",))
+c = float(input("what is c?",))
+
+# inputs for the 3 variables in the quadratic equation
+
+x = (((-1*b)+((b**2)-4*a*c)**.5)/(2*a))
+
+print(x)
+
+x = (((-1*b)-((b**2)-4*a*c)**.5)/(2*a))
+
+print(x)
+
+# Prints the solutions for part a)
+
+x = ((2*c)/((-1*b)+((b**2)-4*a*c)**.5))
+
+print(x)
+
+x = ((2*c)/((-1*b)-((b**2)-4*a*c)**.5))
+
+print(x)
+
+# Prints the solutions for part b)
+# Different answers than part a, possibly from how python inherently handles 
+# data
+
+def quadradic(q):
+    a = .001
+    b = -1000
+    c = .001
+    x = (b+((b**2)-4*a*c)/(2*a))
+    y = (b-((b**2)-4*a*c)/(2*a))
+    print(x)
+    print(y)
+
+print(quadradic)
